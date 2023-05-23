@@ -39,4 +39,12 @@
         tools:layout_editor_absoluteX="119dp"
         tools:layout_editor_absoluteY="419dp" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="296dp"
+        android:layout_height="93dp"
+        android:text="후린푸린"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="27dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
