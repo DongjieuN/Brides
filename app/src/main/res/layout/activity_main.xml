@@ -7,9 +7,10 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="도운아"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,32 +20,27 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="179dp"
         android:text="Button"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="125dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="227dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_background"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="296dp"
         android:layout_height="93dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="5dp"
         android:text="후린푸린"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="27dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
